@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="anaform.master.cs" Inherits="elektraweb.anaform" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+        <div style="height:20px; width:auto;"></div>
+        <div style="height:auto; width:auto; background-color:black;">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light"><div style="height:auto; width:auto; background-color:transparent;"><a href="Anasayfa.aspx"><img src="resimler/logo.png" style="height:auto; width:auto;" class="img-fluid"/>
+            </a></div>
+   <a class="navbar-brand" href="Anasayfa.aspx">Anasayfa</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button><pre>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-link active" href="ustunlukleri.aspx">Üstünlükleri Nelerdir<span class="sr-only">(current)</span></a>
+       
+         
+      <a class="nav-link" href="modul.aspx">Modülleri</a>
+      <a class="nav-link" href="iletisim.aspx">İletişim</a>
+      
+    </div>
+  </div></pre>
+</nav>
+        </div>
+        <div class="container" >
+        
+        <div style="height:20px; width:auto;"></div>
+        <div style="height:auto; width:auto; background-color:snow;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div style="height:20px; width:auto;"></div>
+        
+        <div style="height:10px; width:auto;"></div>
+            </div>
+    </form>
+</body>
+</html>
