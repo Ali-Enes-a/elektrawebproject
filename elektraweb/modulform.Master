@@ -48,7 +48,7 @@
         <div class="sola" style="width:auto; padding:100px;">
             <br />
         <div id="list-example" class="list-group" style="width:auto; height:auto;">
-  <a class="list-group-item list-group-item-action" style="width:auto;" href="modul.aspx?id=1">Ön Büro Programı</a>
+  <a class="list-group-item list-group-item-action" style="width:auto;" href="modul.aspx?id=0">Ön Büro Programı</a>
   <a class="list-group-item list-group-item-action" style="width:auto;" href="modul.aspx?id=2">Restoran POS Yönetimi</a>
   <a class="list-group-item list-group-item-action"style="width:auto;" href="modul.aspx?id=3">Stok ve Maliyet Analizi</a>
   <a class="list-group-item list-group-item-action" style="width:auto;" href="modul.aspx?id=4" >Muhasebe Yönetimi</a>

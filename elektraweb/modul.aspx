@@ -5,7 +5,7 @@
 
 
     <%
-        if (gelen==1)
+        if (gelen==0)
         {
            %>  <h3>Elektraweb Ön Büro Modülü</h3>
                <p>Elektraweb Web Tabanlı Otel Programı Ön büro modülü ile rezervasyon, resepsiyon, housekeeping, fatura, folyo, channel manager, online rezervasyon, emniyet kimlik bildirimi gibi işlemleri rahatlıkla gerçekleştirebilir, ayrıntılı yönetim raporlarına tek tuşla ulaşabilirsiniz</p>
